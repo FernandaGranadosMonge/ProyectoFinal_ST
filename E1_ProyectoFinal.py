@@ -2,7 +2,7 @@ import zipfile as zf
 import os
 import pyminizip
 
-carpeta = input("Ingrese la direccion de la carpeta: ")
+carpeta = "Archivos"
 
 # Iterate over files in directory
 for name in os.listdir(carpeta):
